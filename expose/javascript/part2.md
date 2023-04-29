@@ -36,4 +36,10 @@
     - e. false. true is converted to 1 and 1 != 2 therefore false.
     - f. true. This is Boolean conversion so Boolean(2) is converted to true and true is equal to true and they are the same type so true.
 15. == is a loose equality comparison that will make a comparison and convert types if necessary. In contrast, === is a strict equality comparison that will require the operands to be of the same value and type.
-16. 
+16. see [part2-question16.js](part2-question16.js)
+17. `newArr` will be `2, 4, 6`. This is because we pass in `array` as `[1,2,3]` and `callback` as `doSomething`. The for loop will iterate through all of `array` and `callback(array[i])` would be called. This is equivalent to calling `doSomething(array[0])`, `doSomething(array[1])`, `doSomething(array[2])` which results in the values of `1*2, 2*2 , 2*3` being pushed into `newArr`.
+18. see [part2-question18.js](part2-question18.js)
+19. `1`
+    `4`
+    `3`
+    `2`
